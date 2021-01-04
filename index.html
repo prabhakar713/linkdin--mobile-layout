@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Linkedin</title>
+
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="/script.js"></script>
+    <script src="https://kit.fontawesome.com/3055f91a99.js"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="main-header">
+        <div>
+            <div>
+                <img id="header-logo" src="/images/linkedin.png" alt="LinkedIn" />
+                <img id="header-picture-menu" src="/images/profile.jpg" alt="Profile picture" />
+                <span id="header-picture-menu-bars">
+                    <span class="fas fa-bars"></span>
+                </span>
+
+                <div>
+                    <input id="search" type="text" placeholder="       Search" onfocus="toggleSearchInput()"
+                        onblur="toggleSearchInput()" />
+                    <span id="search-icon" class="fas fa-search"></span>
+                    <span id="search-button" class="fas fa-search"></span>
+                </div>
+                <span class="fas fa-comments"></span>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <div id="home" class="selected">
+                            <span class="fas fa-home"></span>
+                            <span class="nav-item-text">Home</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span class="fas fa-user-friends"></span>
+                            <span class="nav-item-text">My Network</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span class="fas fa-suitcase"></span>
+                            <span class="nav-item-text">Jobs</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span class="fas fa-envelope"></span>
+                            <span class="nav-item-text">Messaging</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span class="fas fa-bell"></span>
+                            <span class="nav-item-text">Notifications</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="right-border">
+                            <img src="/images/profile.jpg" alt="Profile picture" />
+
+                            <span class="nav-item-text">
+                                Me<span class="fas fa-caret-down"> </span></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <span class="fas fa-th"></span>
+
+                            <span class="nav-item-text">Work<span class="fas fa-caret-down"> </span></span>
+                        </div>
+                    </li>
+                    <li id="premium">
+                        <div>
+                            <a href="#">Try Premium Free for 1 Month</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- LOADING PAGE -->
+    <div id="loading-page">
+        <div>
+            <img src="/images/linkedin.png" alt="" />
+            <div id="dot-loader">
+                <div class="lds-ellipsis">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTAINER -->
+    <div class="container">
+        <div class="company-hero-image org-top-card__default-hero-image org-top-card__default-hero-image--company"
+            aria-hidden="true"></div>
+
+        <section id="overview">
+            <div class="section1"></div>
+            <div id="subsection">
+                <img src="yaarme.jpg" loading=" lazy" alt="YaarMe logo" class="one">
+                <h1 class="org-top-card-summary1" title="YaarMe">
+                    <span dir="ltr">YaarMe</span>
+                </h1>
+                <p class="org-top-card-summary2">
+                    Building the world's most luxurious social media.
+                </p>
+
+                <!---->
+                <div class="org-top-cards">
+                    <div class="org-top-card">
+                        <small>Information Technology &amp; Services</small>
+                    </div>
+
+                    <div class="inline-block">
+                        <div class="org-top-card">
+                            <small>Raipur, Chhattisgarh</small>
+                        </div>
+
+                        <!---->
+                        <div class="org-top-card">
+                            <small>129 followers</small>
+                        </div>
+                        <!---->
+                        <div class="link-without-visited-state">
+                            <span >
+                                <a href=""> See 1 employee on LinkedIn</a>
+                            </span>
+
+                        </div>
+
+                        <div class="buttons">
+                            <button>
+                                <span class="fas fa-plus"></span>
+                                <span>Follow</span>
+                            </button>
+                            <span class="plus1">
+                                Visit website
+                                <li-icon aria-hidden="true" type="link-external-icon"
+                                    class="org-top-card-primary-actions__external-link ml2" size="small"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                        data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16"
+                                        height="16" focusable="false">
+                                        <path
+                                            d="M15 1v6h-2V4.41L7.41 10 6 8.59 11.59 3H9V1zm-4 10a1 1 0 01-1 1H5a1 1 0 01-1-1V6a1 1 0 011-1h2V3H5a3 3 0 00-3 3v5a3 3 0 003 3h5a3 3 0 003-3V9h-2z">
+                                        </path>
+                                    </svg></li-icon>
+                            </span>
+                            <span class="plus2">
+                                <button>
+                                    <h3>more</h3>
+                                </button>
+                            </span>
+                        </div>
+                        <div class="exam-select-menu">
+                            <div class="menu-item">Home</div>
+                            <div class="menu-item">About</div>
+                            <div class="menu-item">Posts</div>
+                            <div class="menu-item">Job</div>
+                            <div class="menu-item">People</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="posting">
+            <!-- MAIN -->
+            <div id="main-wrapper">
+                <main id="main-section">
+
+                    <div id="feed-sort">
+                        <hr />
+                        <button>
+                            <span>Sort by:</span>
+                            <strong>Top</strong>
+                            <span class="fas fa-sort-down"></span>
+                        </button>
+                    </div>
+                    <article>
+                        <div id="post-author">
+                            <a href="#">
+                                <div>
+                                    <img src="yaarme.jpg" alt="" />
+                                    <div >
+                                        <div class="org-top-card">
+                                            <strong id="post-author-name">YaarMe</strong>
+                                            <span>
+                                                <span>&nbsp;·&nbsp;</span>
+                                                1st</span>
+                                        </div>
+                                        <span class="org-top-card">152 followers</span>
+                                        <span class="org-top-card">12h</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div>
+                                <span class="fas fa-circle"></span>
+                                <span class="fas fa-circle"></span>
+                                <span class="fas fa-circle"></span>
+                            </div>
+                        </div>
+                        <div id="post-data">
+                            <p>
+                                We have just started working to develop a social media platform which aim to connect you
+                                with your friends and family in most convenient way.
+                                Your comments and suggestions would be greatly appreciated.
+                            <div class="tage">
+                                https://yaarme.com/ #yaarme #yaarmelife #socialmedia #launchingsoon
+                            </div>
+
+
+                            </p>
+                            <p id="post-translation">
+                                <button>See translation</button>
+                            </p>
+                            <img src="yaarmepost.jpg" alt="" />
+                        </div>
+                        <div id="post-interactions">
+                            <div id="interactions-amount">
+                                <span id="like-icon" class="fas fa-thumbs-up fa-flip-horizontal"></span>
+                                <span id="heart-icon" class="fas fa-heart"></span>
+                                <span id="amount-info">23 <span>&nbsp;·&nbsp;</span> 4
+                                    Comments</span>
+                            </div>
+                            <div id="interactions-btns">
+                                <button>
+                                    <span class="far fa-thumbs-up fa-flip-horizontal"></span>
+                                    <span>Like</span>
+                                </button>
+                                <button>
+                                    <span class="far fa-comment-dots fa-flip-horizontal"></span>
+                                    <span>Comment</span>
+                                </button>
+                                <button>
+                                    <span class="far fa-share-square"></span>
+                                    <span>Share</span>
+                                </button>
+                                
+                            </div>
+                        </div>
+                    </article>
+                        <div id="share-box">
+                            <div id="button-box">
+                                <button id="btn-post">
+                                    <span class="fas fa-edit"></span>
+                                    <span id="btn-text">Start a post</span>
+                                </button>
+                                <button id="btn-picture">
+                                    <span class="fas fa-camera"></span>
+                                </button>
+                                <button id="btn-video">
+                                    <span class="fas fa-video"></span>
+                                </button>
+                                <button id="btn-document">
+                                    <span class="fas fa-file"></span>
+                                </button>
+                            </div>
+                            <div id="link-box">
+                                <a href="#">Write an article</a>
+                                <span>on LinkedIn</span>
+                            </div>
+                        </div>
+                    
+                    
+                    </span>
+                </main>
+            </div>
+        </section>
+    </div>
+    <footer>
+
+
+
+
+    </footer>
+</body>
+
+</html>
